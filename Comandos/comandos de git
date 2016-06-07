@@ -1,0 +1,65 @@
+Git : sistema de versionamiento
+	 -> recuperacion entre versiones 
+	 -> se trabaja con repositorios
+	 -> utilizares GITHUB
+ comands:
+	git init -> inicializa localmente tu repositorio, desde la carpeta de la app (local)
+	git clone url-del-proyecto -> clonar un proyecto desde una URL
+	git status -> todos los archivos que se han modificado localmente
+
+	git add <filename> -> agregar un archivo al repositorio
+	git add . -> agregar todo la carpeta al repositorio
+	git add -A --> agregar todos los archivos modificados, los que se eliminan tambien se 				eliminan en el repositorio 
+	git commit -m "comentario" -> agregar comentario entre lo que agregas
+
+	git push origin master -> subir al repositorio online
+				remote origin -> por defecto
+				rama master   ->
+
+	git remote add origin <url del servidor> --> agregar un remote, por defecto github trabaja 							     con origin
+
+	git pull -> Descargar todos los cambios 
+
+	ssh key -> conexion de un pc y el servidor sin trabajar con claves
+
+	/////////////////////////
+	fork -> clonar directamente en la cuenta sin resitorios locales
+
+	///////////////
+	
+	Pasos para crear repositorios 
+	
+	en consola -> crear carpeta y en esa carpeta git init para inicializar git
+		   -> al hacer un cambio en esta carpeta, y darle git status nos mostrará en rojo 			      los cambios que se han echo pero no guardados
+		   -> con git add <file> nos guardara el cambio en el repositorio local, al darle 			      nuevamente el git status, nos saldra en verde
+		   -> con git remote add 
+
+
+	Branches - ramas 
+	
+	utilizar para trabajar en la app en una caracteristica. se tiene un rama master 
+	se utiliza para trabajar en equipo
+	tambien maneja versionamiento en la misma rama
+
+	git checkout -b nuevabranch --> para crear un nueva rama "nuevabranch"
+	git checkout nombrerama --> para cambiar de rama
+	git branch -d nombrebranch --> eliminar rama
+	git branch --> para saber que ramas existen
+	
+
+	Para unir las ramas entramos a la rama que deseamos unir en este caso "master" y 		utilizamos este comando
+	
+	git marge "nombre_de_la_otra_rama" --> unir ramas
+	
+	despues hacemos un git push <remote> <rama> y ya esta unimos la rama (por lo general en la 											rama master)
+	
+	
+
+	
+	
+
+
+	
+			
+
+

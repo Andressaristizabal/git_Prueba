@@ -1,0 +1,29 @@
+consola --> acceder a la maquina sin interfaz grafica
+	codigos:
+		
+		cd : movernos entre carpetas 
+		cd nombre_Carpeta
+
+		cp : copiar datos entre carpetas
+		cp direcccion_de_archivo_origen direccion_destino
+		
+		rm : eliminar uno o mas archivos -R para borrar carpetas
+		rm nombre_de_archivo.extencion
+
+		ls : listar carpetas
+
+		mkdir : crear un directorio o carpeta
+		mkdir nombre_carpeta
+
+		mv : mover o renombrar carpetas
+		mv archivoNombre1.txt archivoNombre2.txt  --> Renombrar
+		mv archivoNombre1.txt /direccion_carpeta
+
+		clear : limpiar pantalla
+
+		pwd : saber mi dirrecion actual en el equipo
+
+				
+	
+		
+		
